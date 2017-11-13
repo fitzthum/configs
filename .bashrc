@@ -13,6 +13,17 @@ PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 bind -x '"\e[Z"':"\"python /home/tfeldma1/cs66/pshell/pshell.py -p\""
 
 
+alias claer="clear"
+alias clera="clear"
+alias celar="clear"
+alias ear="clear"
+alias aer="clear"
+
+alias edit-bash="vi ~/.bashrc"
+alias edit-vim="vi ~/.vimrc"
+alias edit-tmux="vi ~/.tmux.conf"
+alias reload="source ~/.bashrc"
+
 export HISTSIZE=500
 export HISTFILESIZE=500
 export BROWSER=firefox
